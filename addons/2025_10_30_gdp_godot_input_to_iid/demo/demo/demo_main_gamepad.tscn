@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bn7v75dtk4dfa"]
+
+[ext_resource type="Script" uid="uid://euifx4kppheh" path="res://addons/2025_10_30_gdp_godot_input_to_iid/scripts/node_exploration_touch_screen.gd" id="1_0qevk"]
+[ext_resource type="Script" uid="uid://bv8lyvpjuupar" path="res://addons/2025_10_30_gdp_godot_input_to_iid/scripts/node_exploration_gamepad_ready_info.gd" id="1_w2fry"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node Touch Screen" type="Node" parent="."]
+script = ExtResource("1_0qevk")
+enable = true
+
+[node name="Node Gamepad" type="Node" parent="."]
+script = ExtResource("1_w2fry")
